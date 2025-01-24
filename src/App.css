@@ -5,9 +5,7 @@ body {
   background-color: #f8f9fa;
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 
 /* Home.css */
 .home-container {

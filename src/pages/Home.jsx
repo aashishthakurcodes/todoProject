@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { logout } from '../features/authslice';
+import { logout } from '../features/authSlice';
 import TaskInput from '../components/TaskInput';
 import TaskList from '../components/TaskList';
 import { keyframes } from '@emotion/react';

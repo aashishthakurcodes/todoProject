@@ -3,7 +3,7 @@ import { Toaster, toast } from 'react-hot-toast';
 import 'react-toastify/dist/ReactToastify.css';
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { login } from "../features/authslice";
+import { login } from "../features/authSlice";
 
 const Login = () => {
   const [username, setUsername] = useState("");
